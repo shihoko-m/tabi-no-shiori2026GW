@@ -121,48 +121,11 @@
   </div>
 
   <!-- Google Maps 埋め込み（全ルート） -->
-  <div class="map-embed-wrap">
-    <div class="map-embed-tabs">
-      <button class="met-btn active" onclick="switchMap(this,'map-all')">🗾 全ルート</button>
-      <button class="met-btn" onclick="switchMap(this,'map-d1')">🚗 Day 1</button>
-      <button class="met-btn" onclick="switchMap(this,'map-d2')">🏯 Day 2</button>
-      <button class="met-btn" onclick="switchMap(this,'map-d3')">🍥 Day 3</button>
-    </div>
-
-    <div class="map-frame" id="map-all">
-      <iframe
-        width="100%" height="420" style="border:0;border-radius:0 0 6px 6px"
-        loading="lazy" allowfullscreen
-        src="https://www.google.com/maps/embed?pb=!1m64!1m12!1m3!1d3352000!2d136.8!3d35.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m49!3e0!4m5!1s0x6000f5af95f30a4f%3A0x95f71f75db03dc7b!2z5aCx5biC!3m2!1d34.573!2d135.483!4m5!1s0x601ba0e26e36b065%3A0x8fd5513dc4d83e33!2z5a冨5Lmd5ZCJ5biC!3m2!1d35.488!2d138.808!4m5!1s0x601bae5c77b27e2f%3A0x8c8c6fcd53958e0a!2z56aP5ZKM5biC!3m2!1d35.649!2d138.657!4m5!1s0x601c7b5c9eb77791%3A0xb78e1869d5a406e4!2z6Kqe6K235biC!3m2!1d36.040!2d138.112!4m5!1s0x601c9e6c9b50d2e3%3A0x4aa7e71b9d5c0c06!2z5Lit5rSl5bed5biC!3m2!1d35.487!2d137.499!4m5!1s0x6003b11f5d0b5555%3A0x7ed4c20bdd7acaa3!2z6Zai5biC!3m2!1d35.490!2d136.912!5e0!3m2!1sja!2sjp!4v1699999999">
-      </iframe>
-    </div>
-    <div class="map-frame" id="map-d1" style="display:none">
-      <iframe
-        width="100%" height="420" style="border:0;border-radius:0 0 6px 6px"
-        loading="lazy" allowfullscreen
-        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2500000!2d137.5!3d35.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m3!3m2!1d34.573!2d135.483!4m3!3m2!1d35.488!2d138.808!4m3!3m2!1d35.649!2d138.657!5e0!3m2!1sja!2sjp!4v1699999999">
-      </iframe>
-    </div>
-    <div class="map-frame" id="map-d2" style="display:none">
-      <iframe
-        width="100%" height="420" style="border:0;border-radius:0 0 6px 6px"
-        loading="lazy" allowfullscreen
-        src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d800000!2d138.2!3d35.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!3e0!4m3!3m2!1d35.649!2d138.657!4m3!3m2!1d35.487!2d137.499!5e0!3m2!1sja!2sjp!4v1699999999">
-      </iframe>
-    </div>
-    <div class="map-frame" id="map-d3" style="display:none">
-      <iframe
-        width="100%" height="420" style="border:0;border-radius:0 0 6px 6px"
-        loading="lazy" allowfullscreen
-        src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d1000000!2d136.8!3d35.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!3e0!4m3!3m2!1d35.487!2d137.499!4m3!3m2!1d34.573!2d135.483!5e0!3m2!1sja!2sjp!4v1699999999">
-      </iframe>
-    </div>
-
-    <div class="map-open-btn-wrap">
-      <a class="map-open-btn" href="https://www.google.com/maps/dir/堺市,大阪府/天理IC/亀山JCT,三重県/富士吉田市,山梨県/笛吹市石和,山梨県/諏訪市,長野県/中津川市,岐阜県/関市,岐阜県/堺市,大阪府" target="_blank">
-        🗺 Googleマップで全ルートをナビ開始
-      </a>
-    </div>
+  <!-- Googleマップ ナビ開始ボタン -->
+  <div class="map-open-btn-wrap" style="margin-bottom:1.2rem">
+    <a class="map-open-btn" href="https://www.google.com/maps/dir/堺市,大阪府/天理IC/亀山JCT,三重県/富士吉田市,山梨県/笛吹市石和,山梨県/諏訪市,長野県/中津川市,岐阜県/関市,岐阜県/堺市,大阪府" target="_blank">
+      🗺 Googleマップで全ルートをナビ開始
+    </a>
   </div>
 
   <!-- 高速道路メモ -->
